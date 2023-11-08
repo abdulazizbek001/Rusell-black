@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@600;900&display=swap');
+
+*::before,
+*::after,
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+img {
+    display: inline-block;
+}
+
+span {
+    display: inline-block;
+}
+
+button {
+    cursor: pointer;
+}
+
+/*============================= BOX START =============================*/
+
+.box {
+    width: 263px;
+    height: 370px;
+    padding-top: 30px;
+    border-radius: 10px;
+    background-color: #262D33;
+}
+
+.box-img {
+    margin-left: 52px;
+    margin-bottom: 19px;
+}
+
+.box-title {
+    color: #939699;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.box-text {
+    margin: 0 auto;
+    width: 200px;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 25px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+
+.box-img2 {
+    margin-left: 122px;
+    margin-bottom: 18px;
+}
+
+/*============================= BOX END =============================*/
